@@ -25,7 +25,9 @@ namespace Word_Counter
                 for (int i = 0; i < 6; i++)
                 {
                     if (line.EndsWith("e")|| line.EndsWith("t"))
-                    count++;
+                    {
+                        count++;
+                    }
                 }
               
                 Console.WriteLine(line);
